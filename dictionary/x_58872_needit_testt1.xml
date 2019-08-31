@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="testt1" max_length="40" name="x_58872_needit_testt1" type="collection">
+        <element label="Field1" max_length="40" name="field1" type="string"/>
+        <element label="Field2" max_length="200" name="field2" type="string"/>
+        <element default="Field 3 Value" label="Field3" max_length="200" name="field3" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_1" type="journal"/>
+    </element>
+</database>
